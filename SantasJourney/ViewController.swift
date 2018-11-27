@@ -10,11 +10,27 @@ import UIKit
 
 class ViewController: UIViewController {
 
-  override func viewDidLoad() {
+    @IBOutlet weak var viewOne: SwipeImageView!
+    @IBOutlet weak var viewTwo: SwipeImageView!
+    
+    
+    override func viewDidLoad() {
     super.viewDidLoad()
-    // Do any additional setup after loading the view, typically from a nib.
+     viewOne.delegate = self
+    
+        viewOne.setImages(names: ["one", "two", "three", "two", "two", "two"])
+        viewTwo.setImages(names: ["one", "two"])
+        viewTwo.delegate = self
+
   }
 
 
 }
 
+extension ViewController: SwipeImageViewDelegate {
+    
+    func didSwipe(imageView: SwipeImageView) {
+        
+    }
+    
+}

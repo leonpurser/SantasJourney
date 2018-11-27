@@ -14,6 +14,7 @@
 		1F51C40521A6FEBB0060AD17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F51C40321A6FEBB0060AD17 /* LaunchScreen.storyboard */; };
 		1F51C41021A6FEBC0060AD17 /* SantasJourneyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F51C40F21A6FEBC0060AD17 /* SantasJourneyTests.swift */; };
 		1F51C41B21A6FEBC0060AD17 /* SantasJourneyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F51C41A21A6FEBC0060AD17 /* SantasJourneyUITests.swift */; };
+		311DC33121AD9C12002B2EE6 /* SwipeImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311DC33021AD9C12002B2EE6 /* SwipeImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		1F51C41621A6FEBC0060AD17 /* SantasJourneyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SantasJourneyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F51C41A21A6FEBC0060AD17 /* SantasJourneyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SantasJourneyUITests.swift; sourceTree = "<group>"; };
 		1F51C41C21A6FEBC0060AD17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		311DC33021AD9C12002B2EE6 /* SwipeImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				1F51C3FA21A6FEBA0060AD17 /* AppDelegate.swift */,
 				1F51C3FC21A6FEBA0060AD17 /* ViewController.swift */,
+				311DC33021AD9C12002B2EE6 /* SwipeImageView.swift */,
 				1F51C3FE21A6FEBA0060AD17 /* Main.storyboard */,
 				1F51C40121A6FEBB0060AD17 /* Assets.xcassets */,
 				1F51C40321A6FEBB0060AD17 /* LaunchScreen.storyboard */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F51C3FD21A6FEBA0060AD17 /* ViewController.swift in Sources */,
+				311DC33121AD9C12002B2EE6 /* SwipeImageView.swift in Sources */,
 				1F51C3FB21A6FEBA0060AD17 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,8 +437,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = YKTYXK6S6H;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SantasJourney/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -451,8 +456,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = YKTYXK6S6H;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SantasJourney/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
